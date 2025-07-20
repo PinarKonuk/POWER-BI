@@ -1,41 +1,42 @@
-# POWER-BI
-
+# POWER-BI Raporu
 
 📊 ETİ Satış Analizi Power BI Projesi
 Bu proje, Kız Başına Bootcamp kapsamında gerçekleştirilmiş bir Power BI raporudur. Amaç, ETİ markasına ait satış verilerini farklı açılardan analiz ederek anlamlı görselleştirmeler üretmek ve iş zekâsı becerilerini geliştirmektir.
 
 📌 Raporun Amacı
 ETİ markasına ait satış verilerinin yaş gruplarına, müşteri segmentlerine ve kategori bazlı analizine göre görselleştirilerek yorumlanmasıdır.
+Giriş ekranı üzerinden kullanıcı aşağıdaki sayfalara butonlarla yönlendirilebilir:
+
+- Özet
+- Müşteri
+- Kategori
+Görsel öğeler (logolar, şekiller) Power BI içindeki Şekil, Düğme, Metin Kutusu ve Eylem özellikleriyle tasarlanmıştır.
+![Giriş Sayfası](img/giriş.png)
 
 🧭 Rapor 3 Ana Sayfadan Oluşmaktadır:
 1. Özet Sayfası
-Toplam Satış Adeti
+- Toplam Satış Adeti
+- Ortalama Sipariş Tutarı
+- Toplam Ciro
+- Toplam Müşteri Sayısı
+- Müşteri Başına Ciro ve Adet
+- Haftaiçi-Haftasonu Satış Dağılımı (Donut Grafik)
+- Saatlik Satış Tutarı (Alan Grafiği)
+- Bölgelere Göre Toplam Satış Adeti (Çubuk Grafik)
 
-Ortalama Sipariş Tutarı
-
-Toplam Ciro
-
-Toplam Müşteri Sayısı
-
-Müşteri Başına Ciro ve Adet
-
-Haftaiçi-Haftasonu Satış Dağılımı (Donut Grafik)
-
-Saatlik Satış Tutarı (Alan Grafiği)
-
-Bölgelere Göre Toplam Satış Adeti (Çubuk Grafik)
+  ![Özet Dashboard](img/özet.png)
 
 2. Müşteri Analizi Sayfası
-Bölgelere Göre Müşteri Sayısı (Kadın-Erkek Ayrımı ile)
+- Bölgelere Göre Müşteri Sayısı (Kadın-Erkek Ayrımı ile)
+- Yaş Grubuna Göre Satış Dağılımı (Pasta Grafik)
+- İstanbul’daki Top 10 Müşteri Tablosu
+- Kadın / Erkek / Tekil Müşteri Sayıları (Kartlar)
 
-Yaş Grubuna Göre Satış Dağılımı (Pasta Grafik)
-
-İstanbul’daki Top 10 Müşteri Tablosu
-
-Kadın / Erkek / Tekil Müşteri Sayıları (Kartlar)
+  ![Müşteri Dashboard](img/müşteri.png)
 
 3. Kategori Analizi Sayfası
 İstanbul’da yaşayan ve Genç Yaş Grubu (0–20) içinde yer alan müşterilerin toplam cirosunun Ana → Üst → Alt → En Alt Kategori bazlı gösterimi (Ayrıştırma Ağacı / Ağaç Haritası)
+![Kategori Dashboard](img/kategori.png)
 
 📁 Kullanılan Veriler ve Modelleme
 Users (Kullanıcılar): Yaş, cinsiyet, isim/soyisim ayrımı, şifre gizleme, yaş grubu sınıflandırması
@@ -62,19 +63,10 @@ Haftaiçi / Haftasonu Satış: Tarih kolonundan WEEKDAY fonksiyonu ile
 Saatlik Satış: Tarih kolonundan saat bilgisinin ayrılmasıyla
 
 🧭 Navigasyon
-Giriş ekranı üzerinden kullanıcı aşağıdaki sayfalara butonlarla yönlendirilebilir:
 
-Özet
 
-Müşteri
 
-Kategori
 
-Görsel öğeler (logolar, şekiller) Power BI içindeki Şekil, Düğme, Metin Kutusu ve Eylem özellikleriyle tasarlanmıştır.
-![Giriş Sayfası](img/giris.png)
-![Özet Dashboard](img/ozet.png)
-![Müşteri Dashboard](img/musteri.png)
-![Kategori Dashboard](img/kategori.png)
 🔗 Dosya Boyutu Sorunu
 .pbix dosyası 25 MB sınırını geçtiği için doğrudan GitHub'a yüklenememiştir. Bunun yerine dosya Google Drive’a yüklenmiş ve bağlantısı aşağıda paylaşılmıştır:
 
