@@ -50,17 +50,6 @@ Görsel öğeler (logolar, şekiller) Power BI içindeki Şekil, Düğme, Metin 
 
 ![Modelleme](img/tablo.png)
 
-🧠 DAX ile Hesaplanan Ölçüler
-- Toplam Ciro = SUM(siparisdetay[LINETOTAL])
-- Müşteri Başına Ciro = [Toplam Ciro] / [Toplam Müşteri Sayısı]
-
-Yaş Grubu = IF(AGE <= 20, "Genç", IF(AGE <= 35, "Yetişkin", IF(AGE <= 55, "Orta Yaş", "Yaşlı")))
-
-Haftaiçi / Haftasonu Satış: Tarih kolonundan WEEKDAY fonksiyonu ile
-
-Saatlik Satış: Tarih kolonundan saat bilgisinin ayrılmasıyla
-
-
 
 🔗 Dosya Boyutu Sorunu
 .pbix dosyası 25 MB sınırını geçtiği için doğrudan GitHub'a yüklenememiştir. Bunun yerine dosya Google Drive’a yüklenmiş ve bağlantısı aşağıda paylaşılmıştır:
