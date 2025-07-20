@@ -39,31 +39,26 @@ Görsel öğeler (logolar, şekiller) Power BI içindeki Şekil, Düğme, Metin 
 ![Kategori Dashboard](img/kategori.png)
 
 📁 Kullanılan Veriler ve Modelleme
-Users (Kullanıcılar): Yaş, cinsiyet, isim/soyisim ayrımı, şifre gizleme, yaş grubu sınıflandırması
 
-Adres: Şehir bilgisi ve kullanıcıyla eşleştirme
-
-Items (Ürünler): Kategori hiyerarşisi ve yeni sınıflandırmalar
-
-Sipariş ve Sipariş Detayı: Zaman bazlı analizler, tutar hesaplamaları
-
-Bölgeler: Şehir-bölge eşleştirmesi için dış veri seti
+- Users (Kullanıcılar): Yaş, cinsiyet, isim/soyisim ayrımı, şifre gizleme, yaş grubu sınıflandırması
+- Adres: Şehir bilgisi ve kullanıcıyla eşleştirme
+- Items (Ürünler): Kategori hiyerarşisi ve yeni sınıflandırmalar
+- Sipariş ve Sipariş Detayı: Zaman bazlı analizler, tutar hesaplamaları
+- Bölgeler: Şehir-bölge eşleştirmesi için dış veri seti
 
 🛠 Modelleme Power BI içindeki ilişkiler üzerinden oluşturulmuş, gereksiz kolonlar gizlenmiştir.
 
-🧠 DAX ile Hesaplanan Ölçüler
-Toplam Ciro = SUM(siparisdetay[LINETOTAL])
+![Modelleme](img/tablo.png)
 
-Müşteri Başına Ciro = [Toplam Ciro] / [Toplam Müşteri Sayısı]
+🧠 DAX ile Hesaplanan Ölçüler
+- Toplam Ciro = SUM(siparisdetay[LINETOTAL])
+- Müşteri Başına Ciro = [Toplam Ciro] / [Toplam Müşteri Sayısı]
 
 Yaş Grubu = IF(AGE <= 20, "Genç", IF(AGE <= 35, "Yetişkin", IF(AGE <= 55, "Orta Yaş", "Yaşlı")))
 
 Haftaiçi / Haftasonu Satış: Tarih kolonundan WEEKDAY fonksiyonu ile
 
 Saatlik Satış: Tarih kolonundan saat bilgisinin ayrılmasıyla
-
-🧭 Navigasyon
-
 
 
 
