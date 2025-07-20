@@ -1,5 +1,5 @@
 # POWER-BI
-https://drive.google.com/file/d/1md7EJGx3yJiTwIoynE3kGZAvry1H1WbG/view?usp=drive_link
+
 
 📊 ETİ Satış Analizi Power BI Projesi
 Bu proje, Kız Başına Bootcamp kapsamında gerçekleştirilmiş bir Power BI raporudur. Amaç, ETİ markasına ait satış verilerini farklı açılardan analiz ederek anlamlı görselleştirmeler üretmek ve iş zekâsı becerilerini geliştirmektir.
@@ -71,3 +71,12 @@ Müşteri
 Kategori
 
 Görsel öğeler (logolar, şekiller) Power BI içindeki Şekil, Düğme, Metin Kutusu ve Eylem özellikleriyle tasarlanmıştır.
+![Giriş Sayfası](img/giris.png)
+![Özet Dashboard](img/ozet.png)
+![Müşteri Dashboard](img/musteri.png)
+![Kategori Dashboard](img/kategori.png)
+🔗 Dosya Boyutu Sorunu
+.pbix dosyası 25 MB sınırını geçtiği için doğrudan GitHub'a yüklenememiştir. Bunun yerine dosya Google Drive’a yüklenmiş ve bağlantısı aşağıda paylaşılmıştır:
+
+📂 ETİ Power BI Raporu 
+https://drive.google.com/file/d/1md7EJGx3yJiTwIoynE3kGZAvry1H1WbG/view?usp=drive_link
