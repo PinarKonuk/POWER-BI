@@ -21,7 +21,7 @@ Görsel öğeler (logolar, şekiller) Power BI içindeki Şekil, Düğme, Metin 
 - Toplam Müşteri Sayısı
 - Müşteri Başına Ciro ve Adet
 - Haftaiçi-Haftasonu Satış Dağılımı (Donut Grafik)
-- Saatlik Satış Tutarı (Alan Grafiği)
+- Saatlik Satış Tutarı (Çizgi Grafiği)
 - Bölgelere Göre Toplam Satış Adeti (Çubuk Grafik)
 
   ![Özet Dashboard](img/özet.png)
