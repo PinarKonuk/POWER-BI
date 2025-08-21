@@ -50,9 +50,3 @@ Görsel öğeler (logolar, şekiller) Power BI içindeki Şekil, Düğme, Metin 
 
 ![Modelleme](img/tablo.png)
 
-
-🔗 Dosya Boyutu Sorunu
-.pbix dosyası 25 MB sınırını geçtiği için doğrudan GitHub'a yüklenememiştir. Bunun yerine dosya Google Drive’a yüklenmiş ve bağlantısı aşağıda paylaşılmıştır:
-
-📂 ETİ Power BI Raporu 
-https://drive.google.com/file/d/1md7EJGx3yJiTwIoynE3kGZAvry1H1WbG/view?usp=drive_link
